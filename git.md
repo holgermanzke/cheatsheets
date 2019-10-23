@@ -39,5 +39,6 @@ _Quelle: blog.red-badger.com/2016/11/29/gitgithub-in-plain-english_
 
 https://git-scm.com/docs/gitignore
 
-Benennung der Commits:
+## Benennung der Commits
+
 immer ein Verb enthalten
