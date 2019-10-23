@@ -35,5 +35,9 @@ _Quelle: blog.red-badger.com/2016/11/29/gitgithub-in-plain-english_
 - **Collab:** Kollaboration zwischen mehreren Menschen (oder K.I.?)
 - **Merge:** Zusammenlegen von branch und master. Änderungen und ergänzungen werden besprochen und kontrolliert vereint
 
+## Gitignore
+
+https://git-scm.com/docs/gitignore
+
 Benennung der Commits:
 immer ein Verb enthalten
