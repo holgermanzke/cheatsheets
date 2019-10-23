@@ -4,6 +4,11 @@
 
 https://git-scm.com/docs/git-commit
 
+## Andere Cheatsheets
+
+- http://ndpsoftware.com/git-cheatsheet.html#loc=local_repo; (bunt)
+- https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf (PDF)
+
 ## Die wesentlichen Schritte
 
 _Git - Versionskontrolle_
