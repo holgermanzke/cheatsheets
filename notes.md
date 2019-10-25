@@ -10,4 +10,4 @@
 
 ## bootstrap
 
-[Device Größen](ext-light bg-dark)
+[Device Größen](https://getbootstrap.com/docs/4.3/layout/grid/#grid-options)
