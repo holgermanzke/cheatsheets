@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.image-cap {
+  background: lightslategray;
+}
+.image-cap__img {
+  height: 50px;
+}
+
+.card-content {
+}
+.card-title {
+}
+.card-text {
+}
+.card-button {
+}
