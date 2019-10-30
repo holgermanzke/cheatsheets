@@ -4,6 +4,8 @@
 
 https://git-scm.com/docs/git-commit
 
+- `git remote -v` -> zeigt die Version, mit der der aktuelle git remote verbunden ist
+
 ## Andere Cheatsheets
 
 - http://ndpsoftware.com/git-cheatsheet.html#loc=local_repo; (bunt)
@@ -29,7 +31,13 @@ https://git-scm.com/docs/git-commit
 
 ## vorhandenes Projekt in ein Repository laden
 
-> ????
+1. `mkdir ORDNER`
+2. `echo "ORDNER" >> README.md"` -> erstellt README.md mit dem Inhalt "ORDNER"
+3. `git init`
+4. `git add README.md`
+5. `git commit -m "first commit"`
+6. `git remote add origin git@PFAD`
+7. `push -u origin master`-> Wo soll dieser Branch mit verbunden werden (origin=github.com)
 
 ## Die wesentlichen Schritte
 
