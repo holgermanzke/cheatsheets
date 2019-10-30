@@ -21,10 +21,10 @@ https://git-scm.com/docs/git-commit
 6. Scripte erstellen: ```"dev": "parcel _.html", "build": parcel build _.html",
 7. .gitignore erstellen:
 
-- .cache
-- dist
-- node_modules
-- DS_Store
+   1. .cache
+   2. dist
+   3. node_modules
+   4. DS_Store
 
 8. Git Commit
 9. Git Push
@@ -38,6 +38,7 @@ https://git-scm.com/docs/git-commit
 5. `git commit -m "first commit"`
 6. `git remote add origin git@PFAD`
 7. `push -u origin master`-> Wo soll dieser Branch mit verbunden werden (origin=github.com)
+8. Parcel usw. installieren
 
 ## Die wesentlichen Schritte
 
