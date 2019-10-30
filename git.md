@@ -9,6 +9,14 @@ https://git-scm.com/docs/git-commit
 - http://ndpsoftware.com/git-cheatsheet.html#loc=local_repo; (bunt)
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf (PDF)
 
+## Neues Repository anlegen
+
+> ????
+
+## vorhandenes Projekt in ein Repository laden
+
+> ????
+
 ## Die wesentlichen Schritte
 
 _Git - Versionskontrolle_
