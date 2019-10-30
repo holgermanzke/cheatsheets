@@ -9,9 +9,23 @@ https://git-scm.com/docs/git-commit
 - http://ndpsoftware.com/git-cheatsheet.html#loc=local_repo; (bunt)
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf (PDF)
 
-## Neues Repository anlegen
+## Neues Repository über GitHub anlegen
 
-> ????
+1. Repository auf GitHub erstellen
+2. Repository clonen (einfachste Weg) -> Alternativen werden auf Übersichtseite angezeigt
+3. Terminal `git clone (url)`
+4. `npm init -y`(-y alle Fragen werden direkt mit Ja beantwortet) -> Package.json wird angelegt
+5. `npm install --save-dev parcel-bundler sass` -> installiert Parcel und Sass als Developer Dependency (-D ist identisch)
+6. Scripte erstellen: ```"dev": "parcel _.html", "build": parcel build _.html",
+7. .gitignore erstellen:
+
+- .cache
+- dist
+- node_modules
+- DS_Store
+
+8. Git Commit
+9. Git Push
 
 ## vorhandenes Projekt in ein Repository laden
 
