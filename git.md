@@ -21,10 +21,12 @@ https://git-scm.com/docs/git-commit
 6. Scripte erstellen: `"dev": "parcel *.html", "build": parcel build *.html",`
 7. .gitignore erstellen:
 
-   1. .cache
-   2. dist
-   3. node_modules
-   4. DS_Store
+```
+.cache
+dist
+node_modules
+DS_Store
+```
 
 8. Git Commit
 9. Git Push
@@ -78,3 +80,7 @@ https://git-scm.com/docs/gitignore
 ## Benennung der Commits
 
 immer ein Verb enthalten
+
+```
+
+```
