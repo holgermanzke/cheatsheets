@@ -18,7 +18,7 @@ https://git-scm.com/docs/git-commit
 3. Terminal `git clone (url)`
 4. `npm init -y`(-y alle Fragen werden direkt mit Ja beantwortet) -> Package.json wird angelegt
 5. `npm install --save-dev parcel-bundler sass` -> installiert Parcel und Sass als Developer Dependency (-D ist identisch)
-6. Scripte erstellen: ```"dev": "parcel _.html", "build": parcel build _.html",
+6. Scripte erstellen: `"dev": "parcel *.html", "build": parcel build *.html",`
 7. .gitignore erstellen:
 
    1. .cache
