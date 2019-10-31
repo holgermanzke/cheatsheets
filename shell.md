@@ -1,5 +1,9 @@
 # Shell
 
+## wichtige Shortcuts
+
+- CMD + D -> Cursor geht auf alle markierten Elemente
+
 ## Helpful Terminal Commands for Beginners!
 
 https://dev.to/milkstarz/helpful-terminal-commands-for-beginners-5cjh
