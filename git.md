@@ -28,8 +28,33 @@ node_modules
 DS_Store
 ```
 
-8. Git Commit
-9. Git Push
+8. Now einrichten
+
+- now.json erstellen  
+   ´´´
+  {
+  "builds": [
+  {
+  "src": "package.json",
+  "use": "@now/static-build",
+  "config": { "distDir": "dist" }
+  }
+  ]
+  }
+
+  ```
+
+  ```
+
+- .nowignore erstellen
+  ```
+  .cache
+  dist
+  node_modules
+  ```
+
+9. Git Commit
+10. Git Push
 
 ## vorhandenes Projekt in ein Repository laden
 
@@ -80,6 +105,10 @@ https://git-scm.com/docs/gitignore
 ## Benennung der Commits
 
 immer ein Verb enthalten
+
+```
+
+```
 
 ```
 
