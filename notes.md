@@ -10,6 +10,16 @@
 
 ## CSS / SCSS
 
+Am Anfang in den Body:
+
+```css
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+```
+
 ### Struktur
 
 - scss
