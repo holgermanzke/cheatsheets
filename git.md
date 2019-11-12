@@ -18,11 +18,39 @@ https://git-scm.com/docs/git-commit
 3. Terminal `git clone (url)`
 4. `npm init -y`(-y alle Fragen werden direkt mit Ja beantwortet) -> Package.json wird angelegt
 5. `npm install --save-dev parcel-bundler sass` -> installiert Parcel und Sass als Developer Dependency (-D ist identisch)
-6. `npm i -D eslint` -> installiert eslint (für JavaScript)
-7. `./node_modules/.bin/eslint --init` oder `npx eslint --init` ausführen, um eslint zu initialisieren.
-8. In der neuen Datei `eslintrc.js` `jest:true` und ggf. `node: true` hinzufügen
-9. Scripte erstellen: `"dev": "parcel src/*.html", "build": "parcel build src/*.html",` -> abhängig vom Pfad der index.html
-10. .gitignore erstellen:
+6. Scripte erstellen: `"dev": "parcel src/*.html", "build": "parcel build src/*.html",` -> abhängig vom Pfad der index.html
+7. `npm i -D jest` Testing einrichten
+8. `npm install -D babel-jest @babel/core @babel/preset-env` um Babel korrekt zu installieren
+9. `babel.config.js` mit folgendem Inhalt anlegen:
+
+```JS
+module.exports = {
+  presets: [
+    [
+      "@babel/preset-env",
+      {
+        targets: {
+          node: "current"
+        }
+      }
+    ]
+  ]
+};
+```
+
+10. in der `package.json`
+
+```js
+"test": "jest",
+"test-watch": "jest --watch"
+```
+
+ergänzen.
+
+11. `npm i -D eslint` -> installiert eslint (für JavaScript)
+12. `./node_modules/.bin/eslint --init` oder `npx eslint --init` ausführen, um eslint zu initialisieren.
+13. In der neuen Datei `eslintrc.js` `jest:true` und ggf. `node: true` hinzufügen
+14. .gitignore erstellen:
 
 ```
 .cache
@@ -31,7 +59,7 @@ node_modules
 DS_Store
 ```
 
-8. Now einrichten
+15. Now einrichten
 
 - now.json erstellen  
    ´´´
@@ -56,8 +84,8 @@ DS_Store
   node_modules
   ```
 
-9. Git Commit
-10. Git Push
+16. Git Commit
+17. Git Push
 
 ## vorhandenes Projekt in ein Repository laden
 
