@@ -61,8 +61,9 @@ DS_Store
 
 15. Now einrichten
 
-- now.json erstellen  
-   ´´´
+- now.json erstellen
+
+  ```js
   {
   "builds": [
   {
@@ -72,9 +73,6 @@ DS_Store
   }
   ]
   }
-
-  ```
-
   ```
 
 - .nowignore erstellen
