@@ -18,8 +18,11 @@ https://git-scm.com/docs/git-commit
 3. Terminal `git clone (url)`
 4. `npm init -y`(-y alle Fragen werden direkt mit Ja beantwortet) -> Package.json wird angelegt
 5. `npm install --save-dev parcel-bundler sass` -> installiert Parcel und Sass als Developer Dependency (-D ist identisch)
-6. Scripte erstellen: `"dev": "parcel src/*.html", "build": "parcel build src/*.html",` -> abhängig vom Pfad der index.html
-7. .gitignore erstellen:
+6. `npm i -D eslint` -> installiert eslint (für JavaScript)
+7. `./node_modules/.bin/eslint --init` oder `npx eslint --init` ausführen, um eslint zu initialisieren.
+8. In der neuen Datei `eslintrc.js` `jest:true` und ggf. `node: true` hinzufügen
+9. Scripte erstellen: `"dev": "parcel src/*.html", "build": "parcel build src/*.html",` -> abhängig vom Pfad der index.html
+10. .gitignore erstellen:
 
 ```
 .cache
